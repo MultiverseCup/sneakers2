@@ -99,6 +99,15 @@ h1 {
     font-size: 48px;
 }
 
+.collection{
+    color: var(--black, #121723);
+font-family: Anonymous Pro;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 48px */
+}
+
 /* стили для контейнера кроссовок */
 .sneakers {
     display: flex;
@@ -116,6 +125,8 @@ h1 {
     height: 100%;
     border-radius: 12px;
     background: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
 }
 
 .sneaker-image {
