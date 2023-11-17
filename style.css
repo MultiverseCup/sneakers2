@@ -305,7 +305,7 @@ gap: 48px;
 align-self: stretch;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     .header-container{
         flex-direction: column;
         align-items: center;
